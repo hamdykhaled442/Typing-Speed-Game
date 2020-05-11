@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      
+      <title>Typing Speed Game</title>
+  </head>
+   <body class="bg-dark">
+       <div class="container-fluid text-center text-white">
+       <div class="bg-secondary ">
+           <h1>WordBeater</h1>
+           </div>
+           <div>
+           <h3 class="pt-3 pb-5">Type the given word within <span id="seconds" class="text-successs">5</span> seconds :</h3>
+       </div>
+       </div>
+       
+       <div  class="text-center text-white display-4 pb-3">
+           <h1 id="word">hello</h1>
+       </div>
+       
+       <div class="container-fluid text-center">
+           <input type="text" placeholder="Start Typing..." class="mx-auto form-control w-50" id="write" autofoucus>
+       </div>
+       
+       <div class="row">
+       <div class="col-12">
+       <div id="over" class="text-center text-white pt-1">
+       </div>
+       </div>
+       
+       
+       <div class="col-12">
+       <div  class="text-center text-white pt-5 ">
+           <h3>Time left : <span id="time">0</span></h3>
+       </div>
+       </div>
+       
+       <div class="col-12">
+       <div class="text-center text-white pb-5">
+           <h3>Score : <span id="score">0</span></h3>
+       </div>
+       </div>
+       
+       <div class="col-12">
+       <div class="container text-white text-center bg-secondary w-50 pb-2 pt-1">
+           <h4>Instructions</h4>
+           <h6>Type each word in the givin amount of seconds to score, To play again, just type the current word, your score will reset.</h6>
+       </div>
+       </div>
+       </div>
+       
+       <script src="game.js"></script>
+   </body>
+</html>
